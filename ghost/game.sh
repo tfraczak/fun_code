@@ -1,0 +1,1 @@
+gnome-terminal -- ruby game_run.rb

@@ -1,0 +1,1 @@
+To run GHOST, either run ./game.sh locally in a terminal or launch game.sh in a file explorer window.
