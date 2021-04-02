@@ -1,3 +1,24 @@
+# This file can be called with require_relative
+# or you can wrap this in a module and include it in a class
+# made by Tim Fraczak
+
+###################################### CONTENTS ############################################
+#                                                                                          #
+# Everything is generated based on the frequency of the particular in the                  #
+# English language.                                                                        #
+#                                                                                          #
+# rand_username - generates a username of variable length with 1 to 4 numbers              #
+# rand_title - generates a title with proper capitalization                                #
+# rand_word - generates a word                                                             #
+# rand_sentence - generates a proper sentence with proper punctuation                      #
+# rand_paragraph - generates a proper paragraph with indentation                           #
+# rand_essay - generates an essay                                                          #
+# rand_n_words_paper(num) - need a 10,000 paper real quick for your class? I got you, fam. #
+#                                                                                          #
+############################################################################################
+
+# -------------- some helper methods for constructing the rand stuff
+
 def bell_sort(arr)
   bell = []
   arr.sort!
@@ -20,7 +41,7 @@ def weights_constructor(hash)
   weighted_keys
 end
 
-
+# ------------- constructing weights for particulars
 
 def weighted_vowels
   vowels = %w(a e i o u)
@@ -57,11 +78,15 @@ def weighted_paragraph_lengths
   weights_constructor(para_hash)
 end
 
+# ------------------- constants to be used in various parts of code
+
 VOWELS = weighted_vowels
 CONSONANTS = weighted_consonants
 WORD_LENGTHS = weighted_word_lengths
 SENTENCE_LENGTHS = weighted_sentence_lengths
 PARAGRAPH_LENGTHS = weighted_paragraph_lengths
+
+# ------------------- #rand_ methods
 
 def rand_username
   username = ""
