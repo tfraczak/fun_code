@@ -2,20 +2,20 @@
 # or you can wrap this in a module and include it in a class
 # made by Tim Fraczak
 
-###################################### CONTENTS ############################################
-#                                                                                          #
-# Everything is generated based on the frequency of the particular in the                  #
-# English language.                                                                        #
-#                                                                                          #
-# rand_username - generates a username of variable length with 1 to 4 numbers              #
-# rand_title - generates a title with proper capitalization                                #
-# rand_word - generates a word                                                             #
-# rand_sentence - generates a proper sentence with proper punctuation                      #
-# rand_paragraph - generates a proper paragraph with indentation                           #
-# rand_essay - generates an essay                                                          #
-# rand_n_words_paper(num) - need a 10,000 paper real quick for your class? I got you, fam. #
-#                                                                                          #
-############################################################################################
+###################################### CONTENTS #############################################
+#                                                                                           #
+# Everything is generated based on the frequency of the particular in the                   #
+# English language.                                                                         #
+#                                                                                           #
+# rand_username - generates a username of variable length with 1 to 4 numbers               #
+# rand_title - generates a title with proper capitalization                                 #
+# rand_word - generates a word                                                              #
+# rand_sentence - generates a proper sentence with proper punctuation                       #
+# rand_paragraph - generates a proper paragraph with indentation                            #
+# rand_essay - generates an essay                                                           #
+# rand_n_words_paper(num) - need a 10,000 words paper quick for your class? I got you, fam. #
+#                                                                                           #
+#############################################################################################
 
 # -------------- some helper methods for constructing the rand stuff
 
